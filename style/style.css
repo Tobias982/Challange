@@ -6,14 +6,14 @@ body{
 #koule1{
     position: absolute;
     top: 310px;
-    right: 527px;
+    right: 1px;
     z-index: -3;
 }
 
 #koule2{
     position: absolute;
-    left: 573px;
-    bottom: 380px;
+    right: 300px;
+    bottom: 360px;
     z-index: -3;
 }
 
@@ -28,6 +28,9 @@ body{
     flex-direction: column;
     gap: 10px;
     position: relative;
+    border:1px solid gray;
+    border-left-style: hidden ;
+    border-bottom-style: hidden ;
 }
 
 .horejsek{
@@ -80,11 +83,13 @@ body{
 
 .vse{
     position: relative;
+    left: 500px;
     width: 100%;
     height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 400px;
 }
 
 #wifi{
